@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1>License Application</h1>
+    <div class="container">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Full name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <br>
+        <div class="col-6">
+          <label for="name" class="form-label">D/O-S/O</label>
+          <input type="text" class="form-control" id="name">
+        </div>     
+        
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option></option>
+          </select>
+        </div>
+
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Category</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>With gear</option>
+              <option>Without gear</option>
+            </select>
+          </div>
+        
+        <div class="col-md-6">
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday">
+        </div><br>
+
+        <div class="col-md-6">
+            <label for="birthday">Date of Request:</label>
+            <input type="date" id="birthday" name="birthday">
+            </div><br>
+
+        Aadhar file:
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+          </div>
+          <br><br>
+        Image file:
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+          </div>
+
+        
+      </form>
+      <div class="col-12">
+        <a href="user.html">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </a>
+      </div> 
+    </div>  
+</body>
